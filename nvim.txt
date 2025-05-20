@@ -1,0 +1,14 @@
+rm -rf  ~/.config/nvim
+rm -rf  ~/.local/state/nvim
+rm -rf  ~/.local/share/nvim
+rm -rf  ~/.cache/nvim
+
+git init
+git add .
+git commit -m "Initial commit of my nvim configuration"
+git remote add origin <githublink-to-your-repo>
+git branch -M main
+git push -u origin main 
+or
+git push -u origin master
+

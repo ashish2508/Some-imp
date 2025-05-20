@@ -1,0 +1,25 @@
+x&1==0 for even 
+x&1==1 for odd
+x&(x-1)==0  for power of 2 
+x&(x-1)>0  for not a power of 2
+
+check if the K-th bit is set or not : x&(1<<k)
+toggle with the K-th bit : x^(1<<k)
+set the K-th bit : x | (1<<k)
+unset the K-th birt : x & ~(1<<k)
+
+(1==2,2==4,3==8.......n==2^n)
+Divide by 2 : x>>1
+Multiply by 2 : x<<1
+
+find out 
+x%2^k =  x& ((1<<k)-1)
+
+swapping two numbers 
+a^=b
+b^=a
+a^=b
+
+to change value and replace if 
+if the choice is to change a to b and b to a
+x=a^b^x

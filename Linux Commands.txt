@@ -1,0 +1,12 @@
+IMPORTANT LINUX COMMANDS
+
+1.grep -Ril "text-to-find-here"  : To find a certain text in all files 
+2.live-server : for html
+3. man <command-name> : helps to know the function of the command 
+4.mv : move or rename , for move : mv <source> <destination>
+5.cat : display file contents
+6.diff - Find the difference between two files
+7.cmp - Allows you to check if two files are identical
+8.chmod - Command to change file permissions
+9.chown - Command for granting ownership of files or folders
+10.cp -  allows to copy file from a directory to another 
